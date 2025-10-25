@@ -18,7 +18,7 @@ using namespace std;
 #include<vector>
 int main(){
     vector<int>ans{60,30,40,10,50};
-    int sum=110;
+    int sum=1100;
     for(int i=0;i<ans.size();i++){
         for(int j=i+1;j<ans.size();j++){
             for(int k=j+1;k<ans.size();k++){
